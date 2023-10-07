@@ -18,4 +18,7 @@
     1. **Shared commitment to Excellence** -> that is quality of product is not only depend on QA, it's depend upon all environments so everyone should take ownership of what they are doing.
     2. **Empowerment and Accountability** -> we should give chances to others as well as we should responsible to ourself.
     3. **Trust and Safety** -> whatever decision we could take that must be trustable and doesn't affect others.
-* 
+* `Adopt Product Thinking`
+    1. Thought about outcomes
+    2. Deep understanding of customers
+    3. Requires change from IT project oriented

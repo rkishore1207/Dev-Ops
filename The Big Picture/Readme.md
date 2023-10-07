@@ -36,4 +36,7 @@
     1. **IT is often organised by a Functional team** -> having architects, business analyst, developers, QA, production level. So not all levels are working in a particular time one is wait for others to be complete
     2. But in devops having people who have all skills and everyone work at a time if they even lagging in something, the orgs can give training to them.
 * `Rethink Budgeting and Funding`
-    1.
+    1. Most of the companies funding projects not products
+    2. They should consider how to fund outcomes with measurable success metrics.
+    3. Create Platform and SRE (Site Reliability Engineers).
+    4. 

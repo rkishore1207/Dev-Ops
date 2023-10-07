@@ -26,3 +26,8 @@
     1. Thinking about the `Jobs to be done`
     2. Frequent customer interactions
     3. develop customer feedback loops
+* `Make Data Driven Decisions`
+* `Adopt Continuous Improvement Mindset`
+    1. **Constant learning and react accordingly** -> we should have the ability to transform information into usable data.
+    2. It's hard to fix what you don't measure
+    3. Be smart about where to focus versus fix everything

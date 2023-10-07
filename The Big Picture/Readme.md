@@ -38,5 +38,13 @@
 * `Rethink Budgeting and Funding`
     1. Most of the companies funding projects not products
     2. They should consider how to fund outcomes with measurable success metrics.
-    3. Create Platform and SRE (Site Reliability Engineers).
-    4. 
+* `Create Platform and SRE (Site Reliability Engineers)`.
+* `Establish Open communication`
+
+&emsp;&emsp;&emsp; Poor communication leads to push not pull, because if somebody interest what they want, they will post and get pull the work.
+### Practice
+* `Keep Scaling Agile Delivery` -> Devops stretches agile ideas beyond the software team.
+* Establish a small batch delivery
+* Expand test automation and CI/CD
+* Make work visible -> by agile and lean
+### Technology

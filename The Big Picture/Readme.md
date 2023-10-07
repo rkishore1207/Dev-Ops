@@ -22,3 +22,7 @@
     1. Thought about outcomes
     2. Deep understanding of customers
     3. Requires change from IT project oriented
+* `Focus on the Customer`
+    1. Thinking about the `Jobs to be done`
+    2. Frequent customer interactions
+    3. develop customer feedback loops

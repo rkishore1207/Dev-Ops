@@ -31,3 +31,9 @@
     1. **Constant learning and react accordingly** -> we should have the ability to transform information into usable data.
     2. It's hard to fix what you don't measure
     3. Be smart about where to focus versus fix everything
+### Organization
+* `Assess Team Staffing and Structuring`
+    1. **IT is often organised by a Functional team** -> having architects, business analyst, developers, QA, production level. So not all levels are working in a particular time one is wait for others to be complete
+    2. But in devops having people who have all skills and everyone work at a time if they even lagging in something, the orgs can give training to them.
+* `Rethink Budgeting and Funding`
+    1.

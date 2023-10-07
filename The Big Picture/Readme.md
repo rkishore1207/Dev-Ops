@@ -48,3 +48,14 @@
 * Expand test automation and CI/CD
 * Make work visible -> by agile and lean
 ### Technology
+* Start Value stream Mapping
+* `Embrace Flexible planning tools`
+    1. Track sprints while planning your sprints and releases
+    2. Improve transparency and reduce waste and identify blockers
+* Consolidate Issue tracking system
+* Expand the use of sourec control
+* Focus on CI/CD pipelines
+* Leverage configuration management
+* Take advantage of Public cloud
+* Improving Monitoring and Ovservability
+* Infuse Security practices throughout

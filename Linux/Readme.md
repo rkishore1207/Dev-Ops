@@ -50,3 +50,8 @@
 * **Whatis** -> just give what it is about within two lines
 * **--help** -> give complete description about that command
 * **man** -> (manual) it is give same content which was given by --help but in a well structured and organized manner.
+## Tab and Up Arrow
+* Tab key helps to complete the commands
+    1. chm'TAB'
+    2. ls l'TAB' -> lists all files that start with **l**
+* Up arrow helps to get back the previou commands

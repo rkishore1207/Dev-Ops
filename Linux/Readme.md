@@ -55,3 +55,7 @@
     1. chm'TAB'
     2. ls l'TAB' -> lists all files that start with **l**
 * Up arrow helps to get back the previou commands
+## Pipes
+* Pipe (|) is used to connect the output of one command into the input of another command.
+* `ls -l | more` this command restrict the list within one page and suggests more in the down then hit **space** it shows more lists and hit **q** it will come out.
+* `ls -l | tail -1` this command returns the last item in the lists.

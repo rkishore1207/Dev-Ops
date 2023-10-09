@@ -25,3 +25,5 @@
 * Command to change permission
 
 &emsp;&emsp; chmod
+* -> chmod u-r command => it will remove the read access for the command file
+* -> chmod g+w command => it will add the write access for the command file

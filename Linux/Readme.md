@@ -46,3 +46,7 @@
 * **-R** change the recursive ownership of file
 * `actual user` can not able to change the permission access, only `root user` able to change the directory or file permissions.
 * Command for switching into root directory is `su -`.
+## Help Command
+* **Whatis** -> just give what it is about within two lines
+* **--help** -> give complete description about that command
+* **man** -> (manual) it is give same content which was given by --help but in a well structured and organized manner.

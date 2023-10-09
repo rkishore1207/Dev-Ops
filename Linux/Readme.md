@@ -59,3 +59,12 @@
 * Pipe (|) is used to connect the output of one command into the input of another command.
 * `ls -l | more` this command restrict the list within one page and suggests more in the down then hit **space** it shows more lists and hit **q** it will come out.
 * `ls -l | tail -1` this command returns the last item in the lists.
+## Adding Texts to Files
+* There are three ways to do that.
+    1. vi editor
+    2. ls -ltr command (Remote command)
+    3. Echo
+* `echo > fileName` it will ovverride the content in the file.
+* `echo >> fileName` it will append the current command to the previous commands.
+* `cat fileName` is used to open any file in Linux.
+* `date >> fileName` add the current date in the file

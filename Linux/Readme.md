@@ -39,3 +39,10 @@
     6. 5 -> r-x
     7. 6 -> rW-
     8. 7 -> rwx
+## File Ownership
+* There are 2 types of owners for a file or directory.
+* **chown** change the ownership of file
+* **chgrp** change the group ownership fo file
+* **-R** change the recursive ownership of file
+* `actual user` can not able to change the permission access, only `root user` able to change the directory or file permissions.
+* Command for switching into root directory is `su -`.

@@ -75,4 +75,10 @@
     4.more
     5.less
 * Copy command -> `cp sourcePath destinationPath` it's a relative path 
-* `less` is for restricting content in one page and hit **jorUpArrow** it will remove one line and **korDownArrow** it will show one line. 
+* `less` is for restricting content in one page and hit **jorUpArrow** it will remove one line and **korDownArrow** it will show one line.
+## File Management Command
+* `mv` (move) it will move the file into the destination path
+* If we didn't specify the destination path then it will **rename** the particular file. 
+* `mkdir` it will create the new directory
+* `rm` it will remove the directore, and `rm -Rf` it will delete the file with the contents also.
+* `chgrp name:name directory` it will change the access to both the user and group.

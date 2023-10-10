@@ -68,3 +68,11 @@
 * `echo >> fileName` it will append the current command to the previous commands.
 * `cat fileName` is used to open any file in Linux.
 * `date >> fileName` add the current date in the file
+## File display command
+    1.cat
+    2.head
+    3.tail
+    4.more
+    5.less
+* Copy command -> `cp sourcePath destinationPath` it's a relative path 
+* `less` is for restricting content in one page and hit **jorUpArrow** it will remove one line and **korDownArrow** it will show one line. 

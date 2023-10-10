@@ -96,4 +96,17 @@
 * `wc -c` -> bytes 
 * `ls -ltr | wc -l` -> return the no of files and directories in the location. but it will include the **total** line also, so we should subtract 1 from the result.
 * `ls -ltr | grep dr` -> to list the directories in the location
-* `ls -ltr | grep dr | wc -l` -> count of all directories 
+* `ls -ltr | grep dr | wc -l` -> count of all directories
+* **Word Count** command is only for files not for directories. 
+* To list only diretories in the location is `ls -d */`.
+### grep and egrep
+* grep is used to filter the list by some keywords that is, it is exactly like **search**.
+* `grep -i keywords fileName` -> it couldn't consider the cases
+* `grep -v keyword filName` -> it returns the result by except the keyword matching lists.
+* `grep -n keyword filName` -> it returns the list with the **line number**.
+* `grep -c keyword filName` -> it will return the matched **count**.
+* grep can also return the keyword matching result while showing the direcotries or files lists also -> `ls -ltr | grep -i keyword`
+* `grep -vi keyword fileName | awk '{print$1} '` -> it will return the non matched results first word itself.
+* `grep -vi keyword fileName | awk '{print$1} ' | cut -c1-3` -> it will return the non matched results first word's 3 characters only.
+* **egrep** is for filtering the lists by multiple keywords.
+* `egrep -i "keyword1|keyword2" fileName`.

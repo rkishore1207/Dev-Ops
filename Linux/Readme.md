@@ -82,3 +82,18 @@
 * `mkdir` it will create the new directory
 * `rm` it will remove the directore, and `rm -Rf` it will delete the file with the contents also.
 * `chgrp name:name directory` it will change the access to both the user and group.
+## Filters or Text Processor Commands
+    1. cut
+    2. awk
+    3. grep and egrep
+    4. sort
+    5. uniq
+    6. wc
+### WC (word count)
+* `wc fileName` -> it will return the line count , words count, bytes that are presented in the file.
+* `wc -l` -> newLines count
+* `wc -w` -> words count
+* `wc -c` -> bytes 
+* `ls -ltr | wc -l` -> return the no of files and directories in the location. but it will include the **total** line also, so we should subtract 1 from the result.
+* `ls -ltr | grep dr` -> to list the directories in the location
+* `ls -ltr | grep dr | wc -l` -> count of all directories 

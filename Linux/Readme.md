@@ -98,7 +98,7 @@
 * `ls -ltr | grep dr` -> to list the directories in the location
 * `ls -ltr | grep dr | wc -l` -> count of all directories
 * **Word Count** command is only for files not for directories. 
-* To list only diretories in the location is `ls -d */`.
+* <u>To list only diretories in the location is `ls -d */`.</u>
 ### grep and egrep
 * grep is used to filter the list by some keywords that is, it is exactly like **search**.
 * `grep -i keywords fileName` -> it couldn't consider the cases

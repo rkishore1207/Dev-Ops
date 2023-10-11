@@ -110,3 +110,72 @@
 * `grep -vi keyword fileName | awk '{print$1} ' | cut -c1-3` -> it will return the non matched results first word's 3 characters only.
 * **egrep** is for filtering the lists by multiple keywords.
 * `egrep -i "keyword1|keyword2" fileName`.
+### awk command
+* Mainly awk command is used for extract fields from file or an output.
+* `awk '{print $1}' fileName` -> it will print first column of a file
+* `awk '{print $1,$3} fileName'` -> it will print first and third column 
+* `awk '{print $NF}' filName` -> print last column
+* `awk '/keyword/{print $0}' fileName` -> we can able to search through **awk** command hence it will results the matched rows 
+* `echo "Hello world" | awk '{$2="kishore";print $0;}'` -> it will replace the second column name with what we gave => output is **Hello kishore**.
+* `awk -F: '{print$1}' fileName` -> **-F:** it will separate the row by **:** and extract what ever column we want.
+* `awk -F/ '{print$1}' fileName` -> separate by **/**
+* `cat fileName | awk '{if($2=="kishore") print $0;}'` -> it will print all the row which has 'kishore' in their 2nd column.
+* `awk '{length($0) > 10; print}' fileName` -> it will print all the row which has greater than **10** characters
+* `awk '{print NF}'` -> return no of columns of every row.
+### cut Command
+* `cut fileName` -> it is not work
+* `cut -c1 fileName` -> lists 1st character of every row
+* `cut -c1-3 fileName` -> listes 1st three characters
+* `cut -d: -f 6 fileName` -> lists the 6th field in the row and it is like one of the awk command that mentioned above.
+* `ls -l | cut -c1-3`-> it results even for outputs not only for files contents.
+## File Comparison
+    1. diff
+    2. cmp
+* **diff** shows what we need to change if the both file's contents are not matched.
+* **cmp** just give the number of lines which are not same
+## Combining and Splitting
+* `split -l number fileName targetfileName` -> it will split the current files content into the specified number and copy it into the targetFile, if limit exceeded it will append **aa ab ac** into it.
+* `cat file1 file2 file3 > file4` -> it will combine all the files and paste it into the new file.
+## Windows vs Linux
+```
+    Windows         Linux
+    
+    dir             ls -ltr
+    clear           cls
+    command /?      man command
+    time            date
+    ren             mv  -> rename
+    copy            cp
+    move            mv
+    del             rm
+    fc              diff
+    find            grep
+    chdir           pwd
+```
+## Linux File Editor
+    1. vi - Visual Editor
+    2. ed - Standard line editor
+    3. ex - Extended line editor
+    4. emacs - a full screen editor
+    5. pico - beginner's editor
+    6. vim - advance version of vi
+* vi supplies commands for
+    1. Inserting and deleting text
+    2. Replacing text
+    3. Moving around the file
+    4. Finding and Substituting files
+    5. Cutting and Pasting text
+* Most Common keys
+    1. i - insert keys
+    2. Esc - Escape out of any mode
+    3. r - replace
+    4. d - delete
+    5. :q! - quit without saving
+    6. :wq! - quit and save
+* **i** is for changing the mode to **INSERT**
+* **r** is for replacing every character
+* **u** is for undo
+* **x** is for cut the particular character
+* **o** is for newline
+* `shift + Z + Z` is for save and quit
+* **/keyword** is for searchin inside the editor

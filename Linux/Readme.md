@@ -136,3 +136,19 @@
 ## Combining and Splitting
 * `split -l number fileName targetfileName` -> it will split the current files content into the specified number and copy it into the targetFile, if limit exceeded it will append **aa ab ac** into it.
 * `cat file1 file2 file3 > file4` -> it will combine all the files and paste it into the new file.
+## Windows vs Linux
+```
+    Windows         Linux
+    
+    dir             ls -ltr
+    clear           cls
+    command /?      man command
+    time            date
+    ren             mv  -> rename
+    copy            cp
+    move            mv
+    del             rm
+    fc              diff
+    find            grep
+    chdir           pwd
+```

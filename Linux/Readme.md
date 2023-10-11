@@ -133,3 +133,6 @@
     2. cmp
 * **diff** shows what we need to change if the both file's contents are not matched.
 * **cmp** just give the number of lines which are not same
+## Combining and Splitting
+* `split -l number fileName targetfileName` -> it will split the current files content into the specified number and copy it into the targetFile, if limit exceeded it will append **aa ab ac** into it.
+* `cat file1 file2 file3 > file4` -> it will combine all the files and paste it into the new file.

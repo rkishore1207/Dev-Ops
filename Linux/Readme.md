@@ -122,3 +122,9 @@
 * `cat fileName | awk '{if($2=="kishore") print $0;}'` -> it will print all the row which has 'kishore' in their 2nd column.
 * `awk '{length($0) > 10; print}' fileName` -> it will print all the row which has greater than **10** characters
 * `awk '{print NF}'` -> return no of columns of every row.
+### cut Command
+* `cut fileName` -> it is not work
+* `cut -c1 fileName` -> lists 1st character of every row
+* `cut -c1-3 fileName` -> listes 1st three characters
+* `cut -d: -f 6 fileName` -> lists the 6th field in the row and it is like one of the awk command that mentioned above.
+* `ls -l | cut -c1-3`-> it results even for outputs not only for files contents.

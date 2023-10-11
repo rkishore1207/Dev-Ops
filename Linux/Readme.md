@@ -110,3 +110,15 @@
 * `grep -vi keyword fileName | awk '{print$1} ' | cut -c1-3` -> it will return the non matched results first word's 3 characters only.
 * **egrep** is for filtering the lists by multiple keywords.
 * `egrep -i "keyword1|keyword2" fileName`.
+### awk command
+* Mainly awk command is used for extract fields from file or an output.
+* `awk '{print $1}' fileName` -> it will print first column of a file
+* `awk '{print $1,$3} fileName'` -> it will print first and third column 
+* `awk '{print $NF}' filName` -> print last column
+* `awk '/keyword/{print $0}' fileName` -> we can able to search through **awk** command hence it will results the matched rows 
+* `echo "Hello world" | awk '{$2="kishore";print $0;}'` -> it will replace the second column name with what we gave => output is **Hello kishore**.
+* `awk -F: '{print$1}' fileName` -> **-F:** it will separate the row by **:** and extract what ever column we want.
+* `awk -F/ '{print$1}' fileName` -> separate by **/**
+* `cat fileName | awk '{if($2=="kishore") print $0;}'` -> it will print all the row which has 'kishore' in their 2nd column.
+* `awk '{length($0) > 10; print}' fileName` -> it will print all the row which has greater than **10** characters
+* `awk '{print NF}'` -> return no of columns of every row.

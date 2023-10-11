@@ -152,3 +152,30 @@
     find            grep
     chdir           pwd
 ```
+## Linux File Editor
+    1. vi - Visual Editor
+    2. ed - Standard line editor
+    3. ex - Extended line editor
+    4. emacs - a full screen editor
+    5. pico - beginner's editor
+    6. vim - advance version of vi
+* vi supplies commands for
+    1. Inserting and deleting text
+    2. Replacing text
+    3. Moving around the file
+    4. Finding and Substituting files
+    5. Cutting and Pasting text
+* Most Common keys
+    1. i - insert keys
+    2. Esc - Escape out of any mode
+    3. r - replace
+    4. d - delete
+    5. :q! - quit without saving
+    6. :wq! - quit and save
+* **i** is for changing the mode to **INSERT**
+* **r** is for replacing every character
+* **u** is for undo
+* **x** is for cut the particular character
+* **o** is for newline
+* `shift + Z + Z` is for save and quit
+* **/keyword** is for searchin inside the editor

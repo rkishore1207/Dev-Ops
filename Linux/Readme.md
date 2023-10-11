@@ -128,3 +128,8 @@
 * `cut -c1-3 fileName` -> listes 1st three characters
 * `cut -d: -f 6 fileName` -> lists the 6th field in the row and it is like one of the awk command that mentioned above.
 * `ls -l | cut -c1-3`-> it results even for outputs not only for files contents.
+## File Comparison
+    1. diff
+    2. cmp
+* **diff** shows what we need to change if the both file's contents are not matched.
+* **cmp** just give the number of lines which are not same

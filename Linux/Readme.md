@@ -189,3 +189,6 @@
 * `useradd userName` -> it will create new user in the home directory and assinging an **id** and it will also create group for itself in the **/etc/group** folder.
 * `groupadd groupName` -> it will create new group in the **/etc/group** folder
 * `userdel -r userName` and `groupdel groupName`
+* `usermod -G superheros(groupName) spiderman(userName)` -> it will assign the username under the groupname and we can rectify it through /etc/group.
+* To change the groupName in the username description we would use this command -> `chgrp -R groupName userName`.
+* To change password -> `passwd userName` then type the password

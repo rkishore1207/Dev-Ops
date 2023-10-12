@@ -179,3 +179,13 @@
 * **o** is for newline
 * `shift + Z + Z` is for save and quit
 * **/keyword** is for searchin inside the editor
+## User Account and Management
+    1. useradd
+    2. userdel
+    3. groupadd
+    4. groupdel
+    5. usermod
+* These works are accesible by only root user.
+* `useradd userName` -> it will create new user in the home directory and assinging an **id** and it will also create group for itself in the **/etc/group** folder.
+* `groupadd groupName` -> it will create new group in the **/etc/group** folder
+* `userdel -r userName` and `groupdel groupName`

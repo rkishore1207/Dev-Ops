@@ -179,3 +179,23 @@
 * **o** is for newline
 * `shift + Z + Z` is for save and quit
 * **/keyword** is for searchin inside the editor
+## User Account and Management
+    1. useradd
+    2. userdel
+    3. groupadd
+    4. groupdel
+    5. usermod
+* These works are accesible by only root user.
+* `useradd userName` -> it will create new user in the home directory and assinging an **id** and it will also create group for itself in the **/etc/group** folder.
+* `groupadd groupName` -> it will create new group in the **/etc/group** folder
+* `userdel -r userName` and `groupdel groupName`
+* `usermod -G superheros(groupName) spiderman(userName)` -> it will assign the username under the groupname and we can rectify it through /etc/group.
+* To change the groupName in the username description we would use this command -> `chgrp -R groupName userName`.
+* To change password -> `passwd userName` then type the password
+## Processes and Jobs
+* **Application or service** -> is a program that can ability to run in the OS
+* **Script** -> list of commands that wrote in a file and packaged in a way of executable.
+* **Process** -> Once the application is start to run, it will create one Processes or multiple processes.
+* **Daemon** -> it is same as process but it will run in the background and listening for incomin and outgoin traffics
+* **Threads** -> every process that are running in the background create lot of threads to execute the process
+* **jobs** -> it is created by scheduler and make to execute application

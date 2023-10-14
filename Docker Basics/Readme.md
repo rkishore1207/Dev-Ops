@@ -30,3 +30,10 @@
 * Container is like process that are run in an Software
 * Every OS have a **kernel** which is nothing but a `Core` that like the engine of the car. And that is different for every Operatin system.
 * Because of this, we couldn't run windows applications on Linux and it is difficult to talk with linux's kernel. 
+## Docker Workflow
+* Image contains,
+    1. A cut-down OS
+    2. Runtime environment (eg.node)
+    3. Application files
+    4. Third-Party libraries
+    5. Environment variables

@@ -47,3 +47,4 @@
 
 * After successfully run the pipeline we should make it to gave the artifacts.
 * For that we need to edit the pipeline's YAML configuration file -> Add the `publish build artifact` commmand and run again.
+* Then we can download our application from the output of pipeline through artifacts that is mentioned inside the successfull jobs.

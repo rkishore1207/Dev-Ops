@@ -35,9 +35,15 @@
 * For creation of PAT token, just give `Agent pool` scope to **Read and write** that's it.
 * Then it will ask for create **_work** folder to store all the works.
 * Then execute the agent by `.\run.cmd` command.
+* In YAML file need to change the pool name to 'our self hosted pool name'.
 
 ----------------------------------------------------------------------
-## YAML
+### YAML
 * YAML is a data serialization format to store Configuration information.
 * That is how to install packages, how to build and publish so all configuration information were stored in YAML.
-* It is a **Name value based** and s**pace inteded based** and main purpose is efficient for **human readable**.
+* It is a **Name value based** and **space inteded based** and main purpose is efficient for **human readable**.
+
+--------------------------------------------------------------------
+
+* After successfully run the pipeline we should make it to gave the artifacts.
+* For that we need to edit the pipeline's YAML configuration file -> Add the `publish build artifact` commmand and run again.

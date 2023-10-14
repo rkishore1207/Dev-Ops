@@ -25,3 +25,8 @@
     3. Use OS of the host
     4. Start quickly
     5. Need less hardware resource
+## Architecture of Docker
+* It follows the **Client** and **Server** based connection through *RESTfull* api. Here in case server is the Docker Engine
+* Container is like process that are run in an Software
+* Every OS have a **kernel** which is nothing but a `Core` that like the engine of the car. And that is different for every Operatin system.
+* Because of this, we couldn't run windows applications on Linux and it is difficult to talk with linux's kernel. 

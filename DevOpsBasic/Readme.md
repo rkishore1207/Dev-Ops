@@ -17,3 +17,7 @@
 * These Pipeline outputs are called as **Artifacts**.
 * These artifacts are given as input to the **UAT**.
 * After support engineers assist the product then give back the **feedback** to the board again (Planning).
+* Pipeline consists of Test, Build, Publish, UAT and switch.
+### Agent
+* It is a software that takes all the tasks in the pipeline and executes everything serially such as Test, Build, Publish, UAT, Switch.
+* **Switch** is the action of asking `Approval` that is permissions.

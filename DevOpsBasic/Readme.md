@@ -18,6 +18,7 @@
 * These artifacts are given as input to the **UAT**.
 * After support engineers assist the product then give back the **feedback** to the board again (Planning).
 * Pipeline consists of Test, Build, Publish, UAT and switch.
+---------------------------------------------------------
 ### Agent
 * It is a Machine which has CPU, RAM and agent software that takes all the tasks in the pipeline and executes everything serially such as Test, Build, Publish, UAT, Switch.
 * **Switch** is the action of asking `Approval` that is permissions.
@@ -34,3 +35,9 @@
 * For creation of PAT token, just give `Agent pool` scope to **Read and write** that's it.
 * Then it will ask for create **_work** folder to store all the works.
 * Then execute the agent by `.\run.cmd` command.
+
+----------------------------------------------------------------------
+## YAML
+* YAML is a data serialization format to store Configuration information.
+* That is how to install packages, how to build and publish so all configuration information were stored in YAML.
+* It is a **Name value based** and s**pace inteded based** and main purpose is efficient for **human readable**.

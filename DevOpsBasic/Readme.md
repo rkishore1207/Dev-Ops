@@ -19,5 +19,9 @@
 * After support engineers assist the product then give back the **feedback** to the board again (Planning).
 * Pipeline consists of Test, Build, Publish, UAT and switch.
 ### Agent
-* It is a software that takes all the tasks in the pipeline and executes everything serially such as Test, Build, Publish, UAT, Switch.
+* It is a Machine which has CPU, RAM and agent software that takes all the tasks in the pipeline and executes everything serially such as Test, Build, Publish, UAT, Switch.
 * **Switch** is the action of asking `Approval` that is permissions.
+* There are three types of agents 
+    1. Hosted agents which was given by azure
+    2. Self hosted agents -> free and we can run all our pipeline in this pool.
+    3. Azure virtual agents

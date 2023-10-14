@@ -25,3 +25,12 @@
     1. Hosted agents which was given by azure
     2. Self hosted agents -> free and we can run all our pipeline in this pool.
     3. Azure virtual agents
+* Create our own `self hosted` agent in the agent pool.
+* Then go inside and click new agent then we need to download the agent and extract that in our local system.
+* We need to do some configuration as to connect the `local server` with the `remote pipeline` which is in azure.
+* Execute the `.\config.cmd` command.
+* For that first need to copy paste our `Organization name` from the azure.
+* For authentication we need to create **Personal Access Token (PAT)** from our organization and paste it here in the local system.
+* For creation of PAT token, just give `Agent pool` scope to **Read and write** that's it.
+* Then it will ask for create **_work** folder to store all the works.
+* Then execute the agent by `.\run.cmd` command.

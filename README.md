@@ -41,3 +41,44 @@ Learn basics and advanced concepts of dev-ops
  2. Secure (No need of Antiviruses)
  3. Open Source
  4. Distributions
+
+ ##### Why we move to cloud
+  1. Management
+  2. Cost Effective
+* If we have a physical server, then we have to allocate some team to take care of this, but in cloud, we do not worry about that.
+* In cloud, the charges will be based on **Pay as you go** so if we didn't use any resource, we are not getting paid, but in physical sever, Once we bought, then we have to pay the respective cost.
+* But in Virtual Machine concept, if we created 100 VM's and didn't use it properly (not having enough developers to use) then those created cost will be wasted.
+> So, we have to track it properly, that is `Tracking resource usage`
+
+### Azure CLI
+* az --version
+* az login
+* az account list
+* az account list -o table (list accounts as table format)
+* az account set --subscription <subscriptin ID>
+* az account show (to view the current active subscription account)
+* az group list
+* vim <fileName.sh> (creating new executable shell file)
+> while creating new shell file, it couldn't have any executable permission
+* We have to explicitly given to it, once it got created
+* chmod +x <fileName.sh>
+* Once shell file is created, at the top we have to specify the shebang `#!/bin/bash`, then only this file will execute.
+* Then specify the purpose of the script
+``` shell
+################
+# Author - Kishore Ramesh
+# Date - 04-05-2025
+# Purpose - To list all the resources from the Portal
+################
+
+#list Storage accounts
+echo "Listing Storage Accounts"
+az storage account list -o table
+
+#list Virtual Machines
+echo "Listing Virtual Machines"
+az vm list
+```
+* `echo` is used to print the value on the output
+* az storage account list
+* az vm list

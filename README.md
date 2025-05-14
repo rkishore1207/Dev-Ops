@@ -82,3 +82,44 @@ az vm list
 * `echo` is used to print the value on the output
 * az storage account list
 * az vm list
+* To see a particular property from the object, then we have to parse it down (Json Parser and YAML parser).
+* az storage account list | jq '.[].encryption.services.blob.enabled'
+* Another way, az storage account list --query '[].encryption.services.blob.enabled' (available only in azure cli).
+> To install new package, sudo apt update -> sudo apt install <Name>(jq)
+
+### Communicate with API using Shell script
+* Instead of GUI(Graphical User Interface), we can communicate to a system by **programmatically** with API(Application Programming Interface).
+* There are lot **modules** present on each fields such as `Request` is the Module for **Python**, `cURL` is the module for **Shell**, etc..
+* To know the exact api url, we have to look into that particular organization's **API Doc Reference**.
+* Kubernetes's cli is `KubeCTL`.
+
+### Version Control System
+1. Centralized Version Control System (CVCS):
+- This VCS only have one Central place to share the codes.
+- We can't clone it into our local machine.
+- So, If we want to commit, it needs Network connection to commit into Central Repo.
+- Risk of Data Loss
+
+2. Distributed Version Control System (DVCS):
+- This VCS allows to clone into the respective devs machine.
+- We can Do branching and Merging strategies in order to deliver perfect code base
+- We can do local commit, without internet
+- No worry about Data loss, because we have copy in our local machine
+- Fast compare to CVCS
+
+#### Files inside a .git Folder
+1. `HEAD`
+2. `config` - used to configure the **user credential**
+3. `hooks` - used to prevent the unintentionally committing **Passwords and user tokens**
+4. `Objects and Refs` - Git consider all files and everything as a Objects
+
+### Configuration Management
+* To change the configuration of azure resources like **scale up or scale down** and some other purposes.
+* Achieve it using `ANSIBLE`.
+
+#### Difference between Puppet and Ansible.
+1. Puppet is based on **PULL** mechanism, whereas Ansible is based on **PUSH** mechanism
+2. Puppet follows `Master Slave` or Master Agent to do the configuration, Ansible is `Agentless`
+> We have to write the Inventory filebook (resource IP address or DNS) and it is passwordless for the configuration
+3. Ansible supporting *Windows and Linux*
+4. Pretty Simple (we can write script with **YAML**)

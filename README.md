@@ -112,3 +112,14 @@ az vm list
 2. `config` - used to configure the **user credential**
 3. `hooks` - used to prevent the unintentionally committing **Passwords and user tokens**
 4. `Objects and Refs` - Git consider all files and everything as a Objects
+
+### Configuration Management
+* To change the configuration of azure resources like **scale up or scale down** and some other purposes.
+* Achieve it using `ANSIBLE`.
+
+#### Difference between Puppet and Ansible.
+1. Puppet is based on **PULL** mechanism, whereas Ansible is based on **PUSH** mechanism
+2. Puppet follows `Master Slave` or Master Agent to do the configuration, Ansible is `Agentless`
+> We have to write the Inventory filebook (resource IP address or DNS) and it is passwordless for the configuration
+3. Ansible supporting *Windows and Linux*
+4. Pretty Simple (we can write script with **YAML**)
